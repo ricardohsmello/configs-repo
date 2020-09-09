@@ -4,7 +4,7 @@ spring:
   datasource:
     password: postgres
     platform: postgres
-    url: jdbc:postgresql://localhost:5432/player
+    url: jdbc:postgresql://localhost:5432/poker?createDatabaseIfNotExist=true&useSSL=false&currentSchema=player    
     username: postgres
   jpa:
     database: POSTGRESQL
